@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background: #002339;
+    color:#fff;
+}
+.container{
+    margin: 12%;
+    height: 40%;
+    width: 50%;
+    max-width: 80%;
+}
+#im{
+    width: 30px; /* Adjust this value to change the size of the icon */
+    cursor: pointer;
+    position:relative;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color:#333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+.container h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+
+}
+.display input{
+    border: 0;
+    outline:0;
+    font-size: 24px;
+}
+.container button img{
+    width: 28px;
+    margin : 0 5px;
+    
+
+}
+.container button{
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #000;
+    font-size: 22px;
+    font-weight: 520;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
